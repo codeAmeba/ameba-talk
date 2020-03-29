@@ -1,6 +1,6 @@
 const statusClock = document.querySelector('.status-bar__clock');
 
-function getTime() {
+const getTime = () => {
     const date = new Date();
     const hours = date.getHours();
     const minutes = date.getMinutes();
@@ -10,7 +10,7 @@ function getTime() {
     ${minutes < 10 ? `0${minutes}` : minutes}`;
 }
 
-function init() {
+const init = () => {
     getTime();
     setInterval(getTime, 60000);
 }
