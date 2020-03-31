@@ -3,6 +3,10 @@
   overflow: hidden;
 }
 
+.chats-body .status-bar {
+  margin-top: 10px;
+}
+
 .chats-body .header,
 .chats-body .status-bar {
   padding: 0 20px;
